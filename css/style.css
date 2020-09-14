@@ -1,0 +1,401 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	/*font-family: sans-serif;*/
+	font-family: 'Lato', sans-serif;
+	line-height: 24px;
+	font-size: 14px;
+	overflow-x: hidden; 
+}
+h1, h2, h3, h4, h5, h6{
+	/*font-family: monospace;*/
+	font-family: 'Lato', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/*********************************************************************************
+			******** Main CSS starts from here ******
+************************************************************************************/
+/******* Global CSS code starts *******/
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.col-md-12{
+	width: 100%;
+	float: left;
+}
+.col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.col-md-6{
+	width: 50%;
+	float: left;
+}
+.text-right{
+	text-align: right;
+}
+
+/******* Global CSS code ends *********/
+
+/******* Header section CSS goes here ********/
+.header-section{
+	width: 100%;
+	float: left;
+	padding: 15px 0px;
+	background-color: #f6f9f9;
+}
+.logo{
+	width: 100%;
+}
+.header-section .main-menu{
+	width: 100%;
+	float: left;
+	margin-top: 8px;
+	text-align: right;
+	margin-left: 120px;
+}
+.header-section .main-menu ul{
+	display: block;
+}
+.header-section .main-menu ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.header-section .main-menu ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	font-weight: 700;
+	margin: 0px 10px;
+	color: #2d3950;
+}
+
+/******* Header section CSS ends here ********/
+
+/******* Banner section CSS goes here ********/
+.banner-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.banner-inner{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	text-align: center;
+}
+.banner-inner h1{
+	font-size: 85px;
+	font-weight: 700px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+.banner-inner .divider{
+	width: 45%;
+	height: 2px;
+	margin: 20px auto;
+	background: #15a4fa;
+}
+.banner-inner p{
+	font-size: 16px;
+	font-weight: 400px;
+	color: #ffffff;
+	margin-bottom: 50px;
+}
+.banner-inner .btn{
+	font-size: 14px;
+	padding: 15px 35px;
+	/*background: #15a4fa;*/
+	background-color: transparent ;
+	Overflown : hidden;
+	border: 1px solid #15a4fa;
+	color: #ffffff;
+	border-radius: 5px;
+}
+.banner-inner .btn:hover{
+	background: #15a4fa;
+	color: #ffffff;
+	border: 1px solid #15a4fa;
+}
+.banner-inner .arrow{
+	width: 100%;
+	float: left;
+	margin-top: 40px;
+}
+.banner-inner .arrow .arrow-icon{
+	margin-top: 100px;
+	transform: translate(0% 100%);
+}
+/******* Banner section CSS ends here ********/
+
+/******* Simple section CSS starts here ********/
+
+.simple-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background: #f6f9f9;
+}
+.simple-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.simple-inner h1{
+	font-size: 42px;
+	font-weight: 400px;
+	line-height: 57px;
+	color: #2d3950;
+	margin-bottom: 15px;
+}
+.simple-inner p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #a7a8a8;
+}
+
+/******* Simple section CSS ends here ********/
+
+/******* Feature section CSS starts here ********/
+
+.feature-section{
+	width: 100%;
+	float: left;
+	padding: 60px 0px;
+	background: #ffffff;
+}
+.feature-inner{
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.feature-inner img{
+	margin-bottom: 10px;
+}
+.feature-inner h4{
+	font-size: 22px;
+	font-weight: 400px;
+	line-height: 32px;
+	color: #2d3950;
+	margin-bottom: 10px;
+}
+.feature-inner p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #c6c6c6;
+}
+
+/******* Feature section CSS ends here ********/
+
+/******* Portfolio section CSS starts here ********/
+
+.portfolio-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: #f6f9f9;
+}
+.portfolio-section .title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 55px;
+}
+.portfolio-section .title h1{
+	font-size: 42px;
+	font-weight: 400px;
+	line-height: 57px;
+	color: #2d3950;
+	margin-bottom: 5px;
+}
+.portfolio-section .title p{
+	font-size: 14px;
+	font-weight: 400px;
+	line-height: 24px;
+	color: #a7a8a8;
+}
+.portfolio-inner{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.portfolio-inner img{
+
+}
+.portfolio-hover{
+	text-align: center;
+	width: 95%;
+	height: 98%;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	background: rgb(29, 156, 236, .6);
+	display: none;
+	transition: 1s;
+}
+.portfolio-hover ul{
+	display: block;
+	position: absolute;
+	top: 40%;
+	left: 36%;
+}
+.portfolio-hover ul li{
+	display: inline-block;
+	list-style: none;
+}
+.portfolio-hover ul li a{
+
+}
+.portfolio-inner:hover .portfolio-hover{
+	display: block;
+}
+.marr{
+	margin-top: 20px;
+}
+
+/******* Portfolio section CSS ends here ********/
+
+/******* Stay with us section CSS starts here ********/
+
+.stay-section{
+	width: 100%;
+	float: left;
+	padding: 80px 0px;
+	background: url("../images/bg.png") center top no-repeat;
+	background-size: cover;
+}
+.stay-section .title{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.stay-section .title h1{
+	font-size: 42px;
+	margin-bottom: 50px;
+	font-weight: 400;
+	line-height: 52px;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+.stay-section .title p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #999999;
+}
+.stay-section .contact-form{
+	width: 50%;
+	margin: 0px auto;
+}
+.stay-section .contact-form .form-group{
+	width: 100%;
+	float: left;
+	margin: 5px 0px;
+}
+.stay-section .contact-form .form-group .form-control{
+	width: 96%;
+	background: transparent;
+	border: 1px solid #999999;
+	padding: 18px 10px;
+	margin: 10px 0px;
+	color: #aaa;
+	font-size: 14px;
+	border-radius: 3px;
+}
+.stay-section .contact-form .form-group textarea{
+	height: 120px;
+}
+.stay-section .contact-form .form-group span{
+	font-size: 14px;
+	color: #ffffff;
+	margin-left: 10px;
+}
+.stay-section .contact-form .btn-info{
+	text-align: right;
+	padding: 10px 40px;
+	background: transparent;
+	color: #ffffff;
+	border: 1px solid #15a4fa;
+	border-radius: 3px;
+}
+.stay-section .contact-form .btn-info:hover{
+	background: #15a4fa;
+	color: #ffffff;
+	border: 1px solid #15a4fa;
+}
+
+/******* Stay with us section CSS ends here ********/
+
+/******* Footer section CSS starts here ********/
+.footer-section{
+	width: 100%;
+	float: left;
+	padding: 25px 0px;
+}
+.footer-section .copyright{
+	font-size: 14px;
+	color: #999999;
+	margin-top: 10px;
+}
+.footer-section .social-icon{
+	width: 100%;
+	float: left;
+	text-align: right;
+}
+.footer-section .social-icon ul{
+	display: block;
+}
+.footer-section .social-icon ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+.footer-section .social-icon ul li a{
+	text-align: center;
+	font-size: 16px;
+}
+.footer-section .social-icon ul li a .fa{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background: #15a4fa;
+	color: #ffffff;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+
+}
+.footer-section .social-icon ul li a .fb:hover{
+	background: #3b5998;
+	color: #ffffff;
+	border: 1px solid #3b5998;
+}
+.footer-section .social-icon ul li a .twt:hover{
+	background: #55acee;
+	color: #ffffff;
+	border: 1px solid #55acee;
+}
+.footer-section .social-icon ul li a .ggl:hover{
+	background: #dd4b39;
+	color: #ffffff;
+	border: 1px solid #dd4b39;
+}
+.footer-section .social-icon ul li a .ld:hover{
+	background: #0976b4;
+	color: #ffffff;
+	border: 1px solid #0976b4;
+}
+
+/******* Footer section CSS ends here ********/
